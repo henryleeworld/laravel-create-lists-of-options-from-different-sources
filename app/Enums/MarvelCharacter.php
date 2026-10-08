@@ -12,10 +12,10 @@ enum MarvelCharacter: string
     public static function labels(): array
     {
        return [
-           'hulk' => 'Green Goliath',
-           'spider_man' => 'Spidey',
-           'thor' => 'Goldilocks',
-           'wolverine' => 'Ol\' Canucklehead',
+           'hulk' => __('Green Goliath'),
+           'spider_man' => __('Spidey'),
+           'thor' => __('Goldilocks'),
+           'wolverine' => __('Ol\' Canucklehead'),
        ];
     }
 }

@@ -1,4 +1,4 @@
-# Laravel 10 建立來自不同來源的選項列表
+# Laravel 12 建立來自不同來源的選項列表
 
 引入 spatie 的 laravel-options 套件來擴增建立來自不同來源的選項列表，將枚舉、模型、狀態和陣列轉換為統一的選項結構變得簡單。
 
@@ -16,11 +16,15 @@ $ composer install
 ```sh
 $ php artisan key:generate
 ```
+- 執行 __Artisan__ 指令的 __migrate__ 來執行所有未完成的遷移。
+```sh
+$ php artisan migrate
+```
 - 在瀏覽器中輸入已定義的路由 URL 來訪問，例如：http://127.0.0.1:8000。
 - 你可以經由 `/marvel/character/` 來進行漫威角色枚舉清單。
 
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/r92V4Tk.png)
+![](https://i.imgur.com/Iij2xIp.png)
 > 用來定義一系列的常數設定值，避免在開發時使用無效的設定值

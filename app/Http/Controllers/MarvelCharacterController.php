@@ -7,11 +7,14 @@ use Spatie\LaravelOptions\Options;
 
 class MarvelCharacterController extends Controller
 {
-    public function show() 
+    /**
+     * Display the resource.
+     */
+    public function show()
     {
         $hobbitArr = Options::forEnum(MarvelCharacter::class)->toArray();
         foreach ($hobbitArr as $key => $value) {
-            echo $key . '=>' . json_encode($value) . PHP_EOL;
+            echo $value['label'] . '=>' . __($value['value']) . PHP_EOL;
         }
     }
 }
