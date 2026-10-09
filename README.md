@@ -1,4 +1,4 @@
-# Laravel 12 建立來自不同來源的選項列表
+# Laravel 13 建立來自不同來源的選項列表
 
 引入 spatie 的 laravel-options 套件來擴增建立來自不同來源的選項列表，將枚舉、模型、狀態和陣列轉換為統一的選項結構變得簡單。
 
@@ -26,5 +26,5 @@ $ php artisan migrate
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/Iij2xIp.png)
+![](https://i.imgur.com/YFC15v7.png)
 > 用來定義一系列的常數設定值，避免在開發時使用無效的設定值
